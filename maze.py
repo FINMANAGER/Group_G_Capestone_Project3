@@ -32,7 +32,7 @@ class Maze:
             next.walls['left'] = False
         dy = current.y - next.y
 
-        # If the cells are veritcally afjacent, update the walls acooringly.
+        # If the cells are veritcally adjacent, update the walls acooringly.
         if dy == 1:
             current.walls['top'] = False
             next.walls['bottom'] = False
