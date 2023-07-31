@@ -51,7 +51,7 @@ class Maze:
         # Counter to keep track of the number of cells visited.
         break_count = 1
 
-        # Continue generating the maze until all vells have been visited.
+        # Continue generating the maze until all cells have been visited.
         while break_count != len(self.grid_cells):
             # Mark the current cell as visited.
             current_cell.visited = True
